@@ -37,7 +37,7 @@ This notebook contains the complete end-to-end pipeline:
    - Generates answers conditioned on retrieved document context
 
 7. **Interactive Interface**
-   - Provides a **Gradio UI** for user interaction
+   - Provides a Gradio UI for user interaction
    - Allows users to ask questions directly about the uploaded PDFs
 
 ---
