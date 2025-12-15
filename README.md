@@ -98,11 +98,7 @@ jupyter notebook
 - Performance depends on PDF structure and text quality
 - Large PDFs may increase memory and runtime requirements
 - Retrieval quality is sensitive to embedding choice and chunk size
-
----
-
-## Team Contributions
-All team members contributed to system design, implementation, evaluation, and documentation. A detailed breakdown of individual responsibilities and time spent is provided in the final report, as required by DS 340W guidelines.
+- 7b parameter llm results in hallucinations and poor responses occasionally.
 
 ---
 
