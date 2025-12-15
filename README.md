@@ -1,7 +1,7 @@
 # Project README
 
 ## Overview
-This repository contains the code for a **PDF-based Question Answering system** developed for the DS 340W term project. The project implements a **Retrieval-Augmented Generation (RAG)** pipeline that ingests PDF documents, segments them into semantic chunks, embeds those chunks, and answers natural-language questions using a large language model.
+This repository contains the code for a **PDF-based Question Answering system**. The project implements a **Retrieval-Augmented Generation (RAG)** pipeline that ingests PDF documents, segments them into semantic chunks, embeds those chunks, and answers natural-language questions using a large language model.
 
 The entire workflow is implemented in **`main.ipynb`**, which is intended to be run top-to-bottom either locally or in Google Colab.
 
