@@ -110,4 +110,4 @@ jupyter notebook
 ---
 
 ## Contact
-For questions regarding the implementation or reproduction of results, please refer to the final report or contact the project authors.
+For questions regarding the implementation or reproduction of results, please feel free to contact the project authors.
