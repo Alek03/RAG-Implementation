@@ -1,7 +1,7 @@
 # Project README
 
 ## Overview
-This repository contains the code for a **PDF-based Question Answering system**. The project implements a **Retrieval-Augmented Generation (RAG)** pipeline that ingests PDF documents, segments them into semantic chunks, embeds those chunks, and answers natural-language questions using a large language model.
+This repository contains the code for a PDF-based Question Answering system. The project implements a Retrieval-Augmented Generation (RAG) pipeline that ingests PDF documents, segments them into semantic chunks, embeds those chunks, and answers natural-language questions using a large language model.
 
 The entire workflow is implemented in **`main.ipynb`**, which is intended to be run top-to-bottom either locally or in Google Colab.
 
@@ -14,7 +14,7 @@ This notebook contains the complete end-to-end pipeline:
 
 1. **Environment Setup**
    - Installs required Python packages
-   - Includes separate setup paths for **local execution** and **Google Colab**
+   - Includes separate setup paths for local execution and Google Colab
 
 2. **PDF Ingestion & Chunking**
    - Uses `unstructured.partition.pdf` to parse PDFs
@@ -25,7 +25,7 @@ This notebook contains the complete end-to-end pipeline:
    - Stores cleaned text for downstream processing
 
 4. **Embedding Generation**
-   - Uses **HuggingFace sentence embeddings**
+   - Uses HuggingFace sentence embeddings
    - Encodes document chunks into dense vector representations
 
 5. **Similarity-Based Retrieval**
