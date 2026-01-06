@@ -42,35 +42,6 @@ This notebook contains the complete end-to-end pipeline:
 
 ---
 
-## Running the Notebook
-
-### Option 1: Google Colab (Recommended)
-1. Upload `main.ipynb` to Colab
-2. Run all cells sequentially
-3. Follow the Colab-specific setup instructions in the notebook
-
-### Option 2: Local Execution
-1. Create a virtual environment
-```bash
-python -m venv venv
-source venv/bin/activate  # macOS/Linux
-venv\\Scripts\\activate   # Windows
-```
-
-2. Install dependencies
-```bash
-pip install -U pip
-pip install unstructured langchain transformers torch gradio sentence-transformers
-```
-
-3. Launch Jupyter
-```bash
-jupyter notebook
-```
-
-4. Open and run `main.ipynb`
-
----
 
 ## Key Technologies
 - **Unstructured** – PDF parsing and document chunking
